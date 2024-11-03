@@ -1,0 +1,627 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ul1 {
+  height: 45px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.918);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.liul1 {
+  display: inline-block;
+  vertical-align: top;
+  transform: translate(-10px, 12px);
+}
+.aul1 {
+  color: rgba(207, 207, 207, 0.829);
+  text-decoration: none;
+  transform: translateY(-60px);
+  padding: 0 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+}
+a:hover.aul1 {
+  color: white;
+}
+
+.div1 {
+  width: 100%;
+  height: 580px;
+  background-image: url(images/store-card-40-iphone-14-202209_GEO_US.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+}
+.divaindiv1 {
+  display: inline-block;
+  width: 350px;
+  height: 40px;
+  margin-top: 20px;
+  transform: translate(-20px, 30px);
+}
+.learnmorediv1 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 15px;
+  font-size: 19px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.learnmorediv1 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.buydiv1 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 19px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.buydiv1 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.div2 {
+  width: 100%;
+  height: 560px;
+  background-color: rgb(1, 1, 42);
+  margin-top: 15px;
+  background-image: url(images/holiday-logo-202211.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 330px auto;
+}
+
+.h2div2 {
+  color: white;
+  text-align: center;
+  transform: translateY(340px);
+  font-size: 48px;
+  letter-spacing: -3px;
+  word-spacing: -2px;
+  font-family: SF Pro Display "," SF Pro Icons "," Helvetica Neue "," Helvetica
+    "," Arial "," sans-serif;
+}
+.h3div2 {
+  color: white;
+  text-align: center;
+  transform: translateY(350px);
+  padding: 5px;
+  font-size: 24px;
+  word-spacing: -2px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.divaindiv2 {
+  display: inline-block;
+  width: 350px;
+  height: 30px;
+  transform: translate(520px, 350px);
+  margin-top: 12px;
+  font-size: 19px;
+}
+.shopthe {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  word-spacing: -2px;
+  padding: 6px 2px 6px 12px;
+  border: hidden;
+}
+a:hover.shopthe {
+  color: rgb(3, 162, 238);
+  transition: all 1s;
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.div3 {
+  width: 100%;
+  height: 560px;
+  margin-top: 15px;
+  background-image: url(images/apple-card-art-front-back.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 300px 270px;
+  background-color: rgb(12, 5, 75);
+}
+.h2div3 {
+  text-align: center;
+  transform: translateY(50px);
+  font-size: 56px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.h3div3 {
+  text-align: center;
+  transform: translateY(40px);
+  font-size: 26px;
+  color: white;
+  padding: 5px;
+  word-spacing: -2px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.h6div3 {
+  text-align: center;
+  transform: translateY(50px);
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+sup {
+  font-size: 4mm;
+}
+
+.divaindiv3 {
+  display: inline-block;
+  width: 350px;
+  height: 40px;
+  transform: translate(505px, 50px);
+  margin-top: 12px;
+  font-size: 19px;
+}
+.learnmorediv3 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 15px;
+  padding: 5px 2px 5px 10px;
+  line-height: 45px;
+  border: hidden;
+}
+a:hover.learnmorediv3 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+.applydiv3 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 30px;
+  padding: 5px 2px 5px 10px;
+  line-height: 45px;
+  border: hidden;
+}
+a:hover.applydiv3 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.div4 {
+  width: 100%;
+  height: 570px;
+  background-color: white;
+  margin-top: 15px;
+}
+
+.divl4 {
+  display: inline-block;
+  width: 650px;
+  height: inherit;
+  background-color: black;
+  transform: translateX(15px);
+  vertical-align: top;
+  background-image: url(images/images.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 480px 410px;
+}
+.h4divl4 {
+  text-align: center;
+  font-size: 35px;
+  transform: translateY(50px);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.h5divl4 {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  transform: translatey(55px);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.divaindivl4 {
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  transform: translate(130px, 60px);
+}
+.learnmoredivl4 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 80px;
+  line-height: 52px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.learnmoredivl4 {
+  color: rgb(3, 132, 238);
+  transition: all 0.7s;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+.buydivl4 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 15px;
+  line-height: 52px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.buydivl4 {
+  color: rgb(3, 132, 238);
+  transition: all 0.7s;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.divr4 {
+  display: inline-block;
+  width: 650px;
+  height: inherit;
+  transform: translateX(25px);
+  vertical-align: top;
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/hero__ecv967jz1y82_large.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 320px auto;
+}
+.h4divr4 {
+  text-align: center;
+  font-size: 35px;
+  transform: translateY(50px);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.h5divr4 {
+  text-align: center;
+  font-size: 20px;
+  transform: translatey(55px);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.divaindivr4 {
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  transform: translate(130px, 60px);
+}
+.learnmoredivr4 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 80px;
+  line-height: 45px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.learnmoredivr4 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.buydivr4 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 15px;
+  line-height: 45px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.buydivr4 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.div5 {
+  width: 100%;
+  height: 570px;
+  background-color: white;
+  margin-top: 15px;
+}
+
+.divl5 {
+  display: inline-block;
+  width: 650px;
+  height: inherit;
+  vertical-align: top;
+  transform: translateX(15px);
+  background-image: url(images/Apple-AirPods-Pro-2nd-gen-Memoji-engraving-options-220907_big.jpg.large.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 600px auto;
+  background-color: rgb(250, 250, 250);
+}
+.h3divl5 {
+  text-align: center;
+  color: black;
+  font-size: 33px;
+  transform: translateY(40px);
+}
+.h4divl5 {
+  text-align: center;
+  color: black;
+  font-size: 39px;
+  transform: translateY(45px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h5divl5 {
+  text-align: center;
+  color: black;
+  font-size: 19px;
+  transform: translateY(52px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divaindivl5 {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  transform: translate(220px, 60px);
+}
+.shopdivl5 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 62px;
+  line-height: 50px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.shopdivl5 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.divr5 {
+  display: inline-block;
+  width: 650px;
+  height: inherit;
+  transform: translateX(25px);
+  vertical-align: top;
+  background-image: url(images/hero_static__c9d1bk9frtua_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 450px auto;
+  background-color: black;
+}
+.h4divr5 {
+  text-align: center;
+  color: white;
+  font-size: 31px;
+  transform: translateY(45px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h6divr5 {
+  font-size: 13px;
+  color: rgb(190, 12, 12);
+  letter-spacing: 1px;
+  text-align: center;
+  transform: translatey(47px);
+}
+.h5divr5 {
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  transform: translateY(65px);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.divaindivr5 {
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  transform: translate(130px, 70px);
+}
+.learnmoredivr5 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 90px;
+  line-height: 50px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.learnmoredivr5 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.buydivr5 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 5px;
+  line-height: 50px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.buydivr5 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.div6 {
+  width: 100%;
+  height: 570px;
+  margin-top: 15px;
+  background-color: white;
+}
+.divl6 {
+  display: inline-block;
+  width: 650px;
+  height: inherit;
+  vertical-align: top;
+  transform: translateX(15px);
+  background-image: url(images/hero_watch_ultra__cbu8ymf4a8xe_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 750px auto;
+  background-color: white;
+}
+.h4divl6 {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  transform: translateY(45px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h6divl6 {
+  font-size: 13px;
+  color: rgb(235, 83, 13);
+  letter-spacing: 1px;
+  text-align: center;
+  transform: translatey(47px);
+}
+.h5divl6 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  transform: translateY(60px);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.divaindivl6 {
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  transform: translate(130px, 65px);
+}
+.learnmoredivl6 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 85px;
+  line-height: 50px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.learnmoredivl6 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+.buydivl6 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+  line-height: 50px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.buydivl6 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.divr6 {
+  display: inline-block;
+  width: 650px;
+  height: inherit;
+  transform: translateX(25px);
+  vertical-align: top;
+  background-image: url(images/homepod-mini-og-202110.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 680px auto;
+  background-color: white;
+}
+.h4divr6 {
+  text-align: center;
+  color: black;
+  font-size: 39px;
+  transform: translateY(50px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divaindivr6 {
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  transform: translate(130px, 60px);
+}
+.learnmoredivr6 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 80px;
+  line-height: 50px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.learnmoredivr6 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+.buydivr6 {
+  color: rgb(3, 132, 238);
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+  line-height: 50px;
+  padding: 5px 2px 5px 10px;
+  border: hidden;
+}
+a:hover.buydivr6 {
+  color: rgb(3, 162, 238);
+  transition: all 0.7s;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
