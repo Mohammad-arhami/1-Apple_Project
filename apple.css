@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .ul1 {
   height: 45px;
   text-align: center;
@@ -14,11 +16,13 @@ body {
   z-index: 1;
   width: 100%;
 }
+
 .liul1 {
   display: inline-block;
   vertical-align: top;
   transform: translate(-10px, 12px);
 }
+
 .aul1 {
   color: rgba(207, 207, 207, 0.829);
   text-decoration: none;
@@ -39,6 +43,7 @@ a:hover.aul1 {
   background-position: center bottom;
   text-align: center;
 }
+
 .divaindiv1 {
   display: inline-block;
   width: 350px;
@@ -46,6 +51,7 @@ a:hover.aul1 {
   margin-top: 20px;
   transform: translate(-20px, 30px);
 }
+
 .learnmorediv1 {
   color: rgb(3, 132, 238);
   text-decoration: none;
